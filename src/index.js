@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './Bolt.css'
+import './GuessingGame.module.css'
 
 ReactDOM.render(
   <React.StrictMode>
