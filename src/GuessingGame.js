@@ -31,7 +31,7 @@ function GuessingGame() {
       alert(
         `Congratulations, you guessed my number! I was thinking of ${luckyNum}, and it took you ${timesGuessed} to get it!`
       );
-    } else if (guess > luckyNum) {
+    } else if (parsedNum > luckyNum) {
       setMessage("You guessed too high! But how much higher, I won't say :)");
     } else {
       setMessage(
